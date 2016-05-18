@@ -32,15 +32,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="NetReflector">
-      <HintPath>..\lib\CCNet.1.6\NetReflector.dll</HintPath>
+      <HintPath>..\lib\CCNet.1.8\NetReflector.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="ThoughtWorks.CruiseControl.Core">
-      <HintPath>..\lib\CCNet.1.6\ThoughtWorks.CruiseControl.Core.dll</HintPath>
+      <HintPath>..\lib\CCNet.1.8\ThoughtWorks.CruiseControl.Core.dll</HintPath>
     </Reference>
     <Reference Include="ThoughtWorks.CruiseControl.Remote">
-      <HintPath>..\lib\CCNet.1.6\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
+      <HintPath>..\lib\CCNet.1.8\ThoughtWorks.CruiseControl.Remote.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -50,7 +50,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
